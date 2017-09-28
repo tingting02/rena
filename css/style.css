@@ -1,0 +1,90 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+#box {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column; }
+  #box header {
+    width: 100%;
+    height: 5rem;
+    background: #393A3F;
+    color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center; }
+    #box header a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: #fff;
+      padding-left: 3%; }
+      #box header a:nth-child(1) {
+        width: 15%;
+        font-size: 2rem; }
+      #box header a:nth-child(2) {
+        width: 65%; }
+      #box header a:nth-child(3) {
+        width: 15%; }
+  #box .mark {
+    width: 90%;
+    height: 80%;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    background: #fff;
+    border-radius: 2rem;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column; }
+    #box .mark img {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 2rem; }
+    #box .mark p {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 1rem;
+      font-size: 1.8rem; }
+    #box .mark h2 {
+      width: 70%;
+      margin-left: 15%;
+      border-bottom: 1px solid #333;
+      margin-top: 3rem; }
+      #box .mark h2 span {
+        color: #0ff;
+        font-size: 1.6rem; }
+      #box .mark h2 input {
+        width: 70%;
+        border: none;
+        margin-left: 5%; }
+    #box .mark button {
+      width: 80%;
+      height: 2.5rem;
+      background: #2FBA77;
+      color: #fff;
+      text-align: center;
+      line-height: 2.5rem;
+      border: 1px solid #2FBA77;
+      border-radius: 1rem;
+      margin-left: 10%;
+      margin-top: 4rem; }
+
+/*# sourceMappingURL=style.css.map */
